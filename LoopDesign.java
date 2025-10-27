@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class LoopDesign {
     public static Scanner input = new Scanner(System.in);
     public static Random random = new Random();
+    
     public static void main(String[] args) {
         int rollAmount;
         int timesRolled = 0;
@@ -16,6 +17,7 @@ public class LoopDesign {
             timesRolled++;
             result = random.nextInt(6);
         }
-         System.out.println("The die has been rolled " + rollAmount + " times, and the side landed on is " + result +"!");
+        
+        System.out.println("The die has been rolled " + rollAmount + " times, and the side landed on is " + result +"!");
     }
 }
